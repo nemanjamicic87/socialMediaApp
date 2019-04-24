@@ -1,6 +1,6 @@
 import React from 'react';
 import classnames from 'classnames';
-import propTypes from 'prop-types';
+import PropTypes from 'prop-types';
 
 const TextFieldGroup = ({
   name,
@@ -16,14 +16,14 @@ const TextFieldGroup = ({
   return (
     <div className="form-group">
       <input
-        type="{type}"
+        type={type}
         className={classnames('form-control form-control-lg', {
-          'is-invalid': { error }
+          'is-invalid': error
         })}
         placeholder={placeholder}
         name={name}
         value={value}
-        onChange={this.onChange}
+        onChange={onChange}
         disabled={disabled}
       />
       {info && <small className="form-text text-muted">{info}</small>}
