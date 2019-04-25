@@ -1,0 +1,6 @@
+{
+    "editor.mouseWheelZoom": true,
+    "editor.smoothScrolling": true,
+    "workbench.colorTheme": "Solarized Dark",
+    "workbench.iconTheme": "vscode-icons"
+}
